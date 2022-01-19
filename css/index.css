@@ -19,10 +19,9 @@ img {
 
 h1 {
     font-size: 70px;
-    font-family: 'Courier New';
-    color: #7289da;
+    font-family: 'Trebuchet MS';
+    color: #779AFF;
     text-align: center;
-    text-decoration: underline;
 }
 
 p {
@@ -37,11 +36,11 @@ p {
     color: white;
     font-size: 20px;
     position: relative;
-    width: 170px;
-    height: 50px;
+    width: 160px;
+    height: 40px;
     top: 10px;
-    background-color: transparent;
-    border-radius: 30px;
+    background-color: black;
+    border-radius: 10px;
     border: 2px solid white;
     outline: 0;
 }
@@ -60,17 +59,21 @@ p {
 
 
 .navbar {
-  width: 300px;
-  height: 100%;
-  background-color: #262626;
+  width: 200px;
+  height: 57%;
+  background-image: url(https://mcdn.wallpapersafari.com/medium/3/89/bTpgUd.jpg);
+  background-size: cover;
   position: fixed;
   top: 0;
-  right: -300px;
+  right: -310px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20% 0 0 60%;
+  border-radius: 5% 0 0 5%;
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+  border-radius: 30px;
+  border: 2px solid black;
+  outline: 0;
 }
 
 .change {
@@ -92,7 +95,7 @@ p {
 .line {
   width: 100%;
   height: 3px;
-  background-color: chocolate;
+  background-color: black;
   transition: all 0.8s;
 }
 
@@ -118,10 +121,11 @@ p {
 }
 
 .nav-link {
+  font-family: 'Trebuchet MS';
   text-decoration: none;
   font-size: 22px;
-  color: #eee;
-  font-weight: 300;
+  color: #000000;
+  font-weight: 1000;
   letter-spacing: 1px;
   text-transform: uppercase;
   position: relative;
@@ -133,7 +137,7 @@ p {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: chocolate;
+  background-color: black;
   position: absolute;
   left: 0;
   transform: scaleX(0);
