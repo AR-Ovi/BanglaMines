@@ -63,5 +63,16 @@
     
         <script src="./script.js"></script>
     </body>
+	<footer id="footer" class="site-footer dark-skin dark-widgetized-area" style="background-color: rgb(7, 7, 8) !important; color: rgb(232, 228, 227) !important;">
+<div id="site-info" class="site-info site-info-layout-2" style="background-color: rgb(3, 3, 3) !important; color: rgb(232, 229, 227) !important;">
+<div class="container">
+<div class="tie-row">
+<div class="tie-col-md-12">
+<div class="copyright-text copyright-text-first">© Copyright 2022, All Rights Reserved &nbsp;|&nbsp; <span style="color: rgb(247, 96, 96) !important;" class="tie-icon-heart"></span> Kayoanime</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
 </html>
 

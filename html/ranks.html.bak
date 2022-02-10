@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+    <head>  
+       
+    <meta charset="utf-8" />
+    <title>
+        Ranks
+    </title>
+    <link rel="icon" href="./picture/big-icon.png" />
+    <link href="../css/ranks.css" rel="stylesheet" type="text/css">
+
+    </head> 
+    <body>
+
+        <!--Bla blabka-->
+    <!--Buttons-->
+        <a href="https://discord.gg/YFsYvJhRkv" target="_blank">
+            <button class="btn">Join Discord Server</button>
+        </a>
+		<a href="./html/ipandport.html" target="_blank">
+            <button class="btn">Server IP and Port</button>
+        </a>
+    <!--buttons-->
+
+    
+
+        <h1>
+           Server Ranks
+        </h1>
+		<p>
+🎖️[Merchat] Rank :-<br>
+Valitidy :-  Full Season<br>
+Price:- 25 ৳ [ In Bkash / Nagad ]<br>
+<br>
+ᐉ 1000 Claim Block.<br>
+ᐉ 1 Free Pet.<br>
+ᐉ [Merchant] Prefix.<br>
+ᐉ Discord Role.<br>
+ᐉ Set Home 3<br>
+ᐉ Merchant Kit<br>
+<br>
+Permission :-<br>
+ᐉ/fly<br>
+ᐉ/anvil<br>
+ᐉ/loom<br>
+		</p>
+<p1>
+🏅[Knight] Rank :-<br>
+Valitidy :-  Full Season<br>
+Price:- 40 ৳ [ In Bkash / Nagad ]<br>
+<br>
+ᐉ 2000 Claim Block.<br>
+ᐉ 1 Free Pet.<br>
+ᐉ [Knight] Prefix.<br>
+ᐉ Discord Role.<br>
+ᐉ Set Home 4<br>
+ᐉ Knight Kit<br>
+ᐉ Item Repair For 5 Times<br>
+<br>
+Permission :-<br>
+ᐉ/fly<br>
+ᐉ/anvil<br>
+ᐉ/loom<br>
+ᐉ/replay<br>
+</p1>
+
+<p2>
+🥈[Emperor] Rank :-<br>
+Valitidy :-  Full Season<br>
+Price:- 55 ৳ [ In Bkash / Nagad ]<br>
+<br>
+ᐉ 3000 Claim Block.<br>
+ᐉ 2 Free Pet.<br>
+ᐉ [Emperor] Prefix.<br>
+ᐉ Discord Role.<br>
+ᐉ Set Home 7<br>
+ᐉ Emperor Kit<br>
+ᐉ Item Repair For 8 Times<br>
+ᐉ Chat In Survival Form Discord<br>
+<br>
+Permission :-<br>
+ᐉ/fly<br>
+ᐉ/anvil<br>
+ᐉ/loom<br>
+ᐉ/replay<br>
+ᐉ/craft<br>
+ᐉ/tpa , /tpahere<br>
+</p2>
+
+<p3>
+🥇[Elite] Rank :-<br>
+Valitidy :-  Full Season<br>
+Price:- 70 ৳ [ In Bkash / Nagad ]<br>
+
+ᐉ 5000 Claim Block.<br>
+ᐉ 3 Free Pet.<br>
+ᐉ [Elite] Prefix.<br>
+ᐉ Discord Role.<br>
+ᐉ Set Home 10<br>
+ᐉ Elite Kit<br>
+ᐉ Item Repair For 15 Times<br>
+ᐉ Chat In Survival Form Discord<br>
+ᐉ Get A Spawner [ Creeper, Skeleton, Zombie, Spider ]<br>
+ᐉ 1 God Enchant Book.<br>
+<br>
+Permission :-<br>
+ᐉ/fly<br>
+ᐉ/anvil
+ᐉ/loom
+ᐉ/replay
+ᐉ/craft
+ᐉ/tpa , /tpahere
+ᐉ/enderchest
+</p3>
+        <div>
+            <nav class="navbar">
+              <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+      
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="commands.html" class="nav-link">Commands</a>
+                  </li>
+                <li class="nav-item">
+                  <a href="ranks.html" class="nav-link">Ranks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="rules.html" class="nav-link">Rules</a>
+                  </li>
+              </ul>
+            </nav>
+          </div>
+      
+          <script src="../script.js"></script>
+
+   
+    </body>
+</html>

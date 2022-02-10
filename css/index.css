@@ -1,5 +1,19 @@
+:root {
+    --ml-zoom: 1 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px 0;
+    line-height: 32px;
+}
+
+
 body {
-    background-image: url(https://wallpaper.dog/large/20351543.jpg);
+    background-image: url(https://wallpaperaccess.com/download/minecraft-533365);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -10,8 +24,8 @@ body {
 
 img {
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: relative;
     left: 100px;
     top: 3cm;
@@ -22,11 +36,14 @@ h1 {
     font-family: 'Trebuchet MS';
     color: #779AFF;
     text-align: center;
+	-webkit-text-stroke: 2px black;
 }
 
 p {
     color: white;
+	-webkit-text-stroke: 1.2px black;
     position: relative;
+    font-family: 'Trebuchet MS';
     top: 4.7cm;
     left: 150px;
     font-size: 33px;
@@ -34,10 +51,11 @@ p {
 
 .btn {
     color: white;
+	font-weight: 750;
     font-size: 20px;
     position: relative;
-    width: 160px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
     top: 10px;
     background-color: black;
     border-radius: 10px;
@@ -158,5 +176,4 @@ p {
 .nav-link:hover::after {
   transform: scaleX(1);
 }
-
 
