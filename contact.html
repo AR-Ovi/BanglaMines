@@ -1,47 +1,44 @@
 <!DOCTYPE HTML>
 <html>
 
-  <head>
-    <title>Banglamines Commands</title>
-    <meta name="description" content="website description" />
-    <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
-    <link rel="stylesheet" type="text/css" href="style/style.css" />
-    <link rel="icon" href="./style/icon.png" />
-  </head>
+<head>
+  <title>Contact Us</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="icon" href="./style/icon.png" />
+</head>
 
 <body>
-
 
 <!--Bla blabka-->
     <!--Buttons-->
         <a href="https://discord.gg/YFsYvJhRkv" target="_blank">
             <button class="btn">Join Discord Server</button>
         </a>
-		<a href="ipandport.html" target="_blank">
+        <a href="ipandport.html" target="_blank">
             <button class="btn">Server IP and Port</button>
         </a>
     <!--buttons-->
 	
-	
+
   <div id="main">
     <div id="header">
       <div id="logo">
         <a href="./index.html" style="color:white;"><h1>Bangla<p1 style="color:#35BDF5;">mines</p1></h1></a>
-      <div class="slogan">
-		<img src="./style/logo.png" alt="Icon">
-		</div>
+        <div class="slogan"><img src="./style/logo.png" alt="Icon"></div>
       </div>
       <div id="menubar">
         <ul id="menu">
           <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="ranks.html">Ranks</a></li>
           <li><a href="rules.html">Rules</a></li>
           <li><a href="commands.html">Commands</a></li>
-          <!--li><a href="contact.html">Contact Us</a></li--->
+          <li class="current"><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -68,14 +65,26 @@
       </div>
       <div id="content">
         <!-- insert the page content here -->
-        <h1>Welcome to the BanglaMines website!</h1>
-        <div data-type="countdown" data-id="3094242" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/3094242/server-launching-in" title="Server Launching In">Server Launching In</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
-        <p></p>
+        <h1>Contact Us</h1>
+        <p>Fillup this with your name, email and message.</p>
+        <form action="mail.php" method="post">
+          <label for="name">Your Name</label>
+          <input type="text"  name="name" placeholder="Your name..">
+      
+          <label for="lname">Email</label>
+          <input type="email"  name="email" placeholder="Your email..">
+         
+          <label for="message">Message</label>
+          <textarea  name="message" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+        <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
       </div>
     </div>
     <div id="footer">
       <p>|Designed by AROviGamer|</p>
-    </div>
+	  </div>
   </div>
 </body>
 </html>
