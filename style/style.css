@@ -8,7 +8,7 @@ html
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background-image: url(wallpaper.jpg), url(wallpaper2.jpg);
-  background-position-x: center;
+  background-position: center;
   background-size: 400%;
 }
 
