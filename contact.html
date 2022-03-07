@@ -8,8 +8,8 @@
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
-  <link rel="stylesheet" type="text/css" href="style/style.css" />
   <link rel="icon" href="./style/icon.png" />
+  <meta name="viewport" content=" user-scalable=no" />
 </head>
 
 <body>
@@ -24,6 +24,37 @@
         </a>
     <!--buttons-->
 	
+    <nav class="navbar">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+      <ul class="nav-list">
+        <div id="sidebar_container">
+          <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+          <div class="sidebar">
+          <!-- insert your sidebar items here -->
+          <h3>Latest News</h3>
+          <h4>What's the News?</h4>
+            <object data="elements/news.html" width="900px" height="200"> </object>
+          </div>
+          <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+          <div class="sidebar">
+            <h3>Update</h3>
+            <object data="elements/update.html" width="900px" height="200"> </object>
+          </div>
+          <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+          <div class="sidebar">
+            <h3>Latest Blog</h3>
+            <h4>Website Goes Live</h4>
+            <object data="elements/blog.html" width="900px" height="200"> </object><a href="#"> <!--readmore --> </a></c2>
+          </div>
+        </div>
+        </ul>
+      </nav>
+      <script src="./scripts/hamburger.script.js"></script>
+      <script src="./scripts/responsive.script.js"></script>
 
   <div id="main">
     <div id="header">
@@ -83,7 +114,7 @@
       </div>
     </div>
     <div id="footer">
-      <p>|Designed by AROviGamer|</p>
+      <p style="font-size: 1.2em;">|Designed by AROviGamer|</p>
 	  </div>
   </div>
 </body>
