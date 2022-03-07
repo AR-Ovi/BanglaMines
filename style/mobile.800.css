@@ -26,10 +26,11 @@ img
 
 .btn {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 300;
   position: relative;
-  width: 160px;
-  height: 60px;
+  width: 290px;
+  height: 70px;
   top: 10px;
   margin: 0 0 0 0;
   background-color: white;
@@ -43,9 +44,9 @@ img
 .btn:hover {
   background-color: black;
   color: white;
-  font-size: larger;
+  font-size: 36px;
   font-weight: 700;
-  width: 170px;
+  width: 320px;
   cursor: pointer;
 }
 
@@ -151,7 +152,7 @@ ol li
   float: left;
   height: 100px;
   background: transparent;
-  padding: 0 0 0px 10px;
+  padding: 30px 0 80px 10px;
 }
 
 #logo:hover {
@@ -180,28 +181,32 @@ ol li
 }
 #ip_port
 { color: #35BDF5;
+  font-size: 130%;
   border: 5px solid silver;
   background-position: center;
   background-color: black;
   border-style: groove;
   border-radius: 10px;
-  padding: 50px;
+  padding: 40px;
   margin: auto;
   display: inline-block;
   text-align: left;
-  width: 320px;
-  height: 100px;
+  width: 330px;
+  height: 200px;
 }
 
 #header_ip_port
 { font: bold 170% 'Yanone Kaffeesatz', arial, sans-serif;
-  background: rgb(2, 34, 66);
+  background: rgb(5, 71, 138);
   border: 2px solid black;
-  height: 50px;
-  margin-bottom: 50px;
-  max-height: 50px;
+  margin: 50px 0 50px 0;
+  height: 80px;
   text-align: center;
-  padding: 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+img{
+  width: 150px;
 }
 
 .slogan
@@ -209,7 +214,9 @@ ol li
   padding-right: 25px;
   text-align: right; 
   font: 500% 'tangerine', arial; 
-  color: #111;}
+  color: #111;
+
+}
 
 #menubar
 { height: 46px;
@@ -217,6 +224,7 @@ ol li
   margin: 0px auto -1px auto;
   float: right;
   padding: 0 0 0 0;
+  font-size: 1.5em;
 } 
 
 ul#menu
@@ -243,7 +251,8 @@ ul#menu li a
 } 
 
 ul#menu li.current a
-{ height: 20px;
+{ height: 40px;
+  width: 150px;
   padding: 6px 22px 15px 22px;
 }
 
@@ -261,7 +270,7 @@ ul#menu li a:hover
 #site_content
 { width: 950px;
   overflow: hidden;
-  margin: 0 auto 0 auto;
+  margin: 220px auto 0 auto;
   padding: 0;
   background: transparent url(transparent.png) repeat;
   border: 1px solid #000;
